@@ -1,0 +1,28 @@
+import numpy as np
+
+array_one = np.arange(9, dtype=np.float64).reshape(3, 3)
+array_two = np.array([1, 2, 3])
+
+print('First array:')
+print(array_one)
+print()
+
+print('Second array:')
+print(array_two)
+print()
+
+print('Adding the two arrays:')
+print(np.add(array_one, array_two))
+print()
+
+print('Subtracting the two arrays:')
+print(np.subtract(array_one, array_two))
+print()
+
+print('Multiplying the two arrays:')
+print(np.multiply(array_one, array_two))
+print()
+
+print('Dividing the two arrays:')
+print(np.divide(array_one, array_two))
+print()
